@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <form action="">
+            <label for="name"> Name
+                <input type="text" placeholder="Name" id="name">
+            </label>
+            <label for="email">Email
+                <input type="email" placeholder="E-mail" name="" id="email">
+            </label>
+            <label for="phone">Phone
+                <input type="number" placeholder="Phone Number" name="" id="phone">
+            </label>
+            <fieldset>
+                <legend>Country Name</legend>
+                <label for="Bangladesh">
+                    <input type="radio" name="country" id="Bangladesh">Bangladesh
+                </label>
+                <label for="india">
+                    <input type="radio" name="country" id="india">India
+                </label>
+                <label for="USA">
+                    <input type="radio" name="country" id="USA">USA
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Number Of Employee</legend>
+                <label for="one">
+                    <input type="checkbox" name="employee" id="one">1-10
+                </label>
+                <label for="two">
+                    <input type="checkbox" name="employee" id="two">10-50
+                </label>
+                <label for="three">
+                    <input type="checkbox" name="employee" id="three">50-100
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Write Comments</legend>
+                <textarea name="" id="" cols="60" rows="5"></textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
